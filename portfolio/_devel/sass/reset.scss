@@ -1,0 +1,37 @@
+@import "compass/reset";
+
+sup, sub {
+  font-size: 75%;
+}
+sup {
+  vertical-align: super;
+}
+sub {
+  vertical-align: sub;
+}
+textarea, pre {
+  font-family: monospace;
+}
+b, strong {
+  font-weight: bold;
+}
+i, em {
+  font-style: italic;
+}
+hr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+select {
+  font-size: 100%;
+}
+img, iframe, video {
+  vertical-align: top;
+}
+label, button {
+  cursor: pointer;
+}
+body {
+  -webkit-text-size-adjust: 100%;
+}

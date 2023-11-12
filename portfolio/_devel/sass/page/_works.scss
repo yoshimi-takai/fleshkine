@@ -1,0 +1,78 @@
+#page-header {
+  .pageHeader {
+    .pageHeading {
+      padding: 90px 0 130px;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: fontSize(40);
+      font-weight: bold;
+      letter-spacing: 0.1em;
+    }
+  }
+}
+#page-main {
+  .categorySection {
+    margin: 50px 0 100px;
+
+    .categoryTitle {
+      text-transform: uppercase;
+      font-size: fontSize(30);
+      font-weight: bold;
+      letter-spacing: 0.1em;
+
+      .notation {
+        text-transform: none;
+      }
+    }
+    .visualImage {
+      margin: 40px auto 0;
+    }
+  }
+  .contentSection {
+    margin: 50px 0;
+
+    .contentTitle {
+      font-family: $_font_yugothic;
+      font-size: fontSize(20);
+      font-weight: bold;
+    }
+    .contentBody {
+      margin-top: 30px;
+
+      .contentImage {
+        margin-bottom: 40px;
+      }
+      .contentTitleDetail {
+        font-family: $_font_yugothic;
+        font-size: fontSize(16);
+        font-weight: bold;
+      }
+      .contentSubInfo {
+        margin-top: 16px;
+        color: $_text_gray;
+        font-family: $_font_yugothic;
+        font-size: fontSize(12);
+        font-weight: bold;
+      }
+      .textGroup {
+        margin-top: 20px;
+        line-height: 1.7;
+        font-family: $_font_yugothic;
+        font-size: fontSize(14);
+
+        ul {
+          list-style: disc;
+          margin-left: 1em;
+        }
+      }
+      .heading {
+        font-family: $_font_yugothic;
+        font-size: fontSize(16);
+        font-weight: bold;
+      }
+      .contentImage {
+        margin-top: 30px;
+      }
+    }
+  }
+}

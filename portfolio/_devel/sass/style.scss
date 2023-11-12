@@ -1,0 +1,11 @@
+@import "util/easing";
+@import "util/util";
+
+@import "page/common";
+
+#id-top {
+  @import "page/top";
+}
+#id-works {
+  @import "page/works";
+}
